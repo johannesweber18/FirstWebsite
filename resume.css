@@ -1,0 +1,104 @@
+header {
+    width: 100%;
+}
+
+ nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: goldenrod;
+    top:0px;
+    height:100px;
+    margin-left:-15px;
+ }
+
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color:black;
+    padding:20px;
+    margin: 20px;
+    border-style:solid;
+}
+
+body{
+    font-size:44px;
+    margin:0px;
+    padding-top:75px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+h1{
+    color:grey;
+    font-style: bold;
+    font-size: 70%;
+}
+h2{
+    font-size: 50%;
+}
+p{
+    font-size: 50%;
+}
+h3{
+    font-size:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualifications{
+    border-bottom: dotted;
+    margin-top: 40px;
+}
+.skills{
+    border-bottom: dotted;
+}
+.work-experience{
+    border-top:dotted;
+    border-bottom:dotted;
+}
+.volunteer-experience{
+    border-bottom:dotted;
+}
+.additional-info{
+    border-bottom:dotted;
+    padding-bottom:75px;
+}
+.contacts{
+    margin-top: 100px;
+}
+.links {
+    font-size: 44px;
+    display:flex;
+    justify-content: center;
+}
+.links a{
+text-decoration: none;
+color:rgb(96, 193, 219);
+border:dotted;
+border-width:1px;
+margin-left:10px;
+margin-right:10px;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+
+    margin-top:100px;
+}
+.arrow img{
+    height:30px;
+}
+
+@media (min-width:1600px){
+    body{
+        text-align: center;
+    }
+    .links{
+        text-align:center;
+    }
+}
